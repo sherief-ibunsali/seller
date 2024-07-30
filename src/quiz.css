@@ -307,6 +307,9 @@ progress {
   .btn{
     font-size: 1.5rem;
   }
+  .timer{
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (Max-width:420px){
@@ -335,6 +338,9 @@ progress {
     font-size: 1.4rem;
   }
   .btn{
+    font-size: 1.3rem;
+  }
+  .timer{
     font-size: 1.3rem;
   }
 }

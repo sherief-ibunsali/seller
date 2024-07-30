@@ -146,8 +146,8 @@ const quizQuestions = [
 export default function StartScreen({ dispatch, numQuestions }) {
   return (
     <div>
-      <h2>Welcome to the React Quiz!</h2>
-      <h3>{quizQuestions.length} questions to test your React mastery</h3>
+      <h2>Welcome to the JS Quiz!</h2>
+      <h3>{quizQuestions.length} questions to test your JavaScript mastery</h3>
       <button
         className="btn"
         onClick={() =>

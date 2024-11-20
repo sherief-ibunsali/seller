@@ -1,0 +1,64 @@
+.growTab{
+    background-image: url("https://1mdm.com/about/assets/footer-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 15px;
+    flex-direction: column;
+}
+
+.growTab h2{
+    color: #fff;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+}
+
+
+
+.btnStart{
+    background-color: #fff;
+    color:red;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding: 7px 13px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btnStart:hover{
+    background-color: red;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btnChat{
+    background-color:red;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    
+    font-size: 18px;
+    padding: 7px 13px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.btnChat:hover{
+    background-color: #fff;
+    color: red;
+    transition: all .2s;
+}
+
+.btnContainer{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}

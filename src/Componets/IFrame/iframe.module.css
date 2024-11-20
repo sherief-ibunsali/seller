@@ -1,0 +1,36 @@
+.iframeCotainer{
+  max-width: 1200px;
+  margin:55px auto;
+  margin-bottom: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    padding:0 15px;
+}
+
+.paraContainer{
+    font-size: 18.5px;
+    
+}
+
+.paraContainer p{
+    margin-top: 35px;
+}
+
+@media (max-width:850px) {
+    .iframeCotainer{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        justify-content: center !important;
+        justify-items: center !important;
+    }
+    .paraContainer p{
+        margin-top: 10px !important;
+    }
+    .iframe iframe{
+        width: 100% !important;
+    }
+}

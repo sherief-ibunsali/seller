@@ -1,0 +1,116 @@
+.route{
+    max-width: 1200px;
+    margin: 100px auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding:0 15px;
+}
+
+.redirect{
+    width: 180px;
+    border-left: 1px solid grey;
+}
+
+.redirect p{
+ padding:16px 30px;
+ /* border: 0px solid rgba(0, 0, 0, 0.125); */
+ display: flex;
+ align-items: center;
+ font-size: 19px;
+ font-weight: 600;
+transition: all .2s;
+
+}
+
+.redirect p:hover{
+    background-color: aliceblue;
+}
+
+.routeSecondary{
+    display: flex;
+    align-items: center;
+}
+
+.routeTxt{
+    max-width: 500px;
+    padding:0 15px;
+}
+
+.routeTxt p{
+    margin-top: 30px;
+}
+
+.routeTxt .h1{
+    font-size: 37px;
+    font-weight: 600;
+    text-align: left !important;
+     
+}
+
+.routeImg{
+    max-width: 400px;
+}
+
+.routeImg img{
+    height: auto;
+    max-width: 100%;
+}
+
+.currentRoute{
+    color: red;
+    transition: all .2s;
+    border-left: 5px solid red;
+}
+
+@media (max-width:1050px) {
+    .routeSecondary{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        justify-content: start !important;
+        justify-items: start !important;
+    }
+   
+}
+
+@media (max-width:690px){
+    .route{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        /* text-align: center; */
+        justify-content: center;
+        justify-items: center;
+    }
+    /* .redirect{
+        display: flex !important;
+        justify-content: center !important;
+        padding: 12px !important;
+        border-left: 0px solid white;
+        border-top: 1px solid gray;
+        } */
+        
+        .redirect p{
+        font-size: 13px !important;
+
+    }
+}
+
+@media (max-width:410px){
+    .routeTxt{
+        max-width: 300px;
+        padding:0 15px;
+    }
+    .routeSecondary{
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        justify-items: center;
+        align-items: center;
+    }
+    .route{
+        max-width: 600px !important ;
+    }
+    
+}

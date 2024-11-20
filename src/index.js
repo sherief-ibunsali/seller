@@ -1,18 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import DateCounter from "./dateCounter";
-import App from "./app";
-import "./quiz.css";
+import "./index.css";
+import Router from "./router";
 
-function Quiz() {
+
+function Seller() {
   return (
     <div>
-      <App/>
+      <Router />
     </div>
   );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <Quiz />
-);
+root.render(<Seller />);

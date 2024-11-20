@@ -1,0 +1,115 @@
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    overflow-x: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .pricing-table thead th {
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    text-align: center;
+    /* box-shadow: 0 0 0 9999px transparent; */
+    
+  }
+  
+  .pricing-table tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .pricing-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .pricing-table tbody td:first-child {
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .headTitles{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 20px;
+
+  }
+  .yearlyPrice{
+    font-size: 24px;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+  
+  small {
+    display: block;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+
+  .btnStart{
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding: 7px 13px;
+    cursor: pointer;
+    width: 160px;
+}
+
+
+.addInfo{
+        margin-top: -28px;
+        background: red;
+        color: "#fff";
+        padding: 4px;
+        /* width: 300px; */
+        color: #fff;
+}
+
+.tableOutside{
+    text-align: center;
+    padding: 70px;
+}
+
+.tableOutside h3{
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 16px;
+}
+
+.tableOutside p{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+@media (max-width:410px) {
+  .reach{
+  font-size: 19px !important;
+  }
+  .choose-para{
+font-size: 14px !important;
+  }
+  .tableOutside{
+    padding: 20px !important;
+  }
+}

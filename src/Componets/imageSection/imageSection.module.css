@@ -1,0 +1,139 @@
+.imgBackground{
+    background-image: url("https://1mdm.com/about/assets/seller-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    padding:0 15px;
+}
+
+.imgInner{
+    width: 1200px;
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sell{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 24px;
+}
+
+.reach{
+    font-weight: 600;
+    font-size: 41px;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.btnContainer{
+    margin-top: 70px;
+    display: flex;
+    gap: 9px;
+}
+
+.btnStart{
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding: 7px 13px;
+    cursor: pointer;
+}
+
+.btnChat{
+    background-color:none;
+    color: red;
+    border-radius: 20px;
+    border: 1px solid red;
+    
+    font-size: 18px;
+    padding: 7px 13px;
+    cursor: pointer;
+}
+.btnChat:hover{
+    background-color: red;
+    color: #fff;
+    transition: all .2s;
+}
+
+.imgBackgroundSecondary{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.imgBackgroundSecondary h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.imgBackgroundSecondary p{
+    font-size: 17px;
+}
+
+.imgHeads{
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 890px) {
+.reach{
+    font-size: 35px;
+}
+}
+
+
+@media (max-width: 790px) {
+    .reach{
+        font-size: 30px;
+    }
+    }
+
+
+    @media (max-width: 690px) {
+        .reach{
+            font-size: 25px;
+        }
+        .imgBackgroundSecondary h3{
+         font-size: 23px;
+        }
+        .imgBackgroundSecondary p{
+            font-size: 15px;
+        }
+        .imgHeads{
+            margin-top: 10px !important;
+        }
+        .h1{
+            margin:20px  0 !important ;
+        }
+        }
+        @media (max-width: 590px) {
+            .imgInner{
+                display: grid !important;
+                grid-template-columns: 1fr !important;
+                gap: 40px;
+            }
+            .imgBackgroundSecondary{
+                display: flex;
+                flex-direction: column;
+                gap: 15px  !important;
+            }
+            .btnContainer{
+                margin-top: 30px !important;
+            }
+        }
+

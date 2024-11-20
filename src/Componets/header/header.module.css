@@ -1,0 +1,142 @@
+.header{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding:0 15px;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: #fff;
+    transition: all .4s;
+}
+
+.headerPrimary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.headerTitle{
+    color: gray;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.headerContact{
+     font-size: 17px;
+     margin-bottom: 5px;
+}
+
+.acc:hover , .contact:hover{
+ color: red;
+ transition: all .2s;
+ cursor: pointer;
+}
+
+.headerSecondary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul{
+    text-decoration: none;
+    display: flex;
+    /* font-size: 17px */
+    color: gray;
+    gap: 17px;
+}
+
+.nav ul li{
+    list-style: none;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.nav ul li a:hover{
+    color: red;
+    transition: all .2s;
+}
+
+
+/* Toggle Button for Small Screens */
+.toggleButton {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Default State of Navigation */
+  .nav {
+    display: flex;
+  }
+  
+  .nav ul {
+    display: flex;
+    gap: 17px;
+  }
+  
+  /* Styles for Smaller Screens */
+  @media (max-width: 670px) {
+    .toggleButton {
+      display: block;
+    }
+  
+    .nav {
+      display: none;
+      flex-direction: column;
+      
+      position: absolute;
+      top: 100%;
+      /* right: 0; */
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      padding: 10px;
+      width:100%;
+
+      
+    }
+  
+    .navOpen {
+      display: flex;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .nav ul li {
+      text-align: center;
+    }
+  }
+
+  @media (max-width:600px) {
+    .headerPrimary{
+        display: flex;
+        flex-direction: column !important;
+    }
+  }
+  
+
+  @media (max-width:410px) {
+    .headerTitle{
+      font-size: 14px !important;
+    }
+  }
+
+  @media (max-width:340px) {
+    .headerTitle{
+      font-size: 12px !important;
+    }
+  }

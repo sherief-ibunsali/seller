@@ -1,0 +1,48 @@
+.carosal{
+    /* background-color: #dee2e6; */
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+.title{
+    color: #a10005;
+    text-align: center;
+}
+
+.box{
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 20px;
+
+    display: flex !important;
+    align-items: center;
+    gap: 15px;
+}
+
+.right{
+  max-width: 500px;
+  padding: 32px;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.left{
+max-width: 700px;
+}
+
+.left img{
+    max-width: 100%;
+    border-radius: 20px;
+    /* height: 500px; */
+}
+
+
+@media (max-width:700px){
+    .box{
+        flex-direction: column !important;
+    }
+    .left img{
+        /* height: 450px; */
+    }
+}

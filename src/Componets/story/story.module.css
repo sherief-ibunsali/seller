@@ -1,0 +1,85 @@
+.imgBackground{
+    background-image: url("https://1mdm.com/about/assets/1mdm-story-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    padding:0 15px;
+}
+
+
+.storyContent{
+    max-width: 1200px;
+    margin: 70px auto;
+    /* margin-top: 70px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+.storyPrimary{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.storyPrimary p{
+    font-weight: 600;
+    color: #696969;
+    font-size: 12px;
+}
+
+
+.storySecondary{
+    max-width: 650px;
+}
+
+.storySecondary h1{
+    font-size: 36px;
+    font-weight: 500px;
+}
+
+.storyHead{
+    color: #3a3a3a;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 34px;
+}
+
+.storyPara{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+    margin-top: 50px;
+}
+
+.storyPara p{
+    font-size: 16px;
+    color: #212529;
+}
+
+@media (max-width:850px) {
+    .storyPrimary{
+        display: flex !important;
+        flex-direction: row !important;
+        margin-bottom: 27px !important
+    }
+    .storyContent{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width:520px){
+    .storySecondary h1{
+        font-size: 27px !important;
+    }
+    .storyHead{
+        font-size: 21px !important;
+    }
+}
